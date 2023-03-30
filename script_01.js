@@ -36,14 +36,20 @@
 
 /* JS ist eine untypisierte Sprache! | untyped */
 
-let test;
-test = "Max";
-test = 2;
-test = true;
-test = false;
+// let test;
+// test = "Max";
+// test = 2;
+// test = true;
+// test = false;
 
-console.log("Datentyp: " + typeof test);
-console.log("Inhalt: " + test);
+// console.log("Datentyp: " + typeof test);
+// console.log("Inhalt: " + test);
+
+/***** 03a Konstanten *******/
+
+const test = "Max"; // Variable mit KONSTANTEM Inhalt
+test = "hi"; // KEINE neue Zuweisung zur LZ möglich! --> Fehler
+console.log("Inhalt: " + test); // Ausgabe
 
 /***** 04 Beispiel - Berechnung *******/
 
